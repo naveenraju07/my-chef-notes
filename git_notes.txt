@@ -1,0 +1,12 @@
+#initialize the git repo
+git init
+#add files
+vim chefnotes.txt
+#add to the files that needs to be commited
+git add chefnotes.txt
+#commit , message mandatory
+git commit -m "initial commit"
+set up the online repo to where it has to be uploaded
+git remote add origin https://github.com/naveenraju07/my-chef-notes.git
+#upload to online repo(from master, your current working branch, to origin, the online repo)
+git push origin master
