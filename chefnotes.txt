@@ -1,0 +1,7 @@
+#steps to generate resume using recipe and attributes
+#go inside cookbooks
+chef generate cookbook resume
+#go inside the resume cookbook
+chef generate recipe resume_gen
+#create attribute file in the same location
+chef generate attribute resume_val
